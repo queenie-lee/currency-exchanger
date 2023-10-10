@@ -2,9 +2,9 @@ public class CurrencyConverter {
     public static void main(String[] args) {
         java.util.Scanner scan = new java.util.Scanner(System.in);
         System.out.println("Before we start the program, we will need to establish the accepted conversion rate between Euro and Sterling Pounds");
-        System.out.print("If I give you £1, how many Euro will you give me? ");
+        System.out.print("   If I give you £1, how many Euro will you give me? ");
         double euroOverPoundRatio = scan.nextDouble();
-        System.out.print("If I give you 1€, how many Sterling pounds will you give me? ");
+        System.out.print("   If I give you 1€, how many Sterling pounds will you give me? ");
         double poundOverEuroRatio = scan.nextDouble();
         System.out.println("Thank you. Let's begin the program.");
         boolean finished = false;
